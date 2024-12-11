@@ -42,10 +42,12 @@ assessmentButton.addEventListener(
         const script = document.createElement('script');
         script.setAttribute('src','https://platform.twitter.com/widgets.js');
         tweetDivision.appendChild(script);
-  }
-)
+
+      }
+    )    
+    
         //Enter キーで診断できるようにする処理
-        userNameInput.addEventListener(
+        userNameinput.addEventListener(
           'keydown',
           (event) => {
             if (event.code === 'Enter') {
@@ -53,8 +55,7 @@ assessmentButton.addEventListener(
             }
           }
         )
-        
-)
+         
 const answers=[
 '###userName###のいいところは声です。###userName###の特徴的な声は皆を惹きつけ、心に残ります。',
 '###userName###のいいところはまなざしです。###userName###に見つめられた人は、気になって仕方がないでしょう。',
