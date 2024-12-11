@@ -42,7 +42,8 @@ assessmentButton.addEventListener(
         const script = document.createElement('script');
         script.setAttribute('src','https://platform.twitter.com/widgets.js');
         tweetDivision.appendChild(script);
-
+  }
+)
         //Enter キーで診断できるようにする処理
         userNameInput.addEventListener(
           'keydown',
